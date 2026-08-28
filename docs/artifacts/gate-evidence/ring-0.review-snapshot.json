@@ -1,0 +1,168 @@
+{
+  "ring": 0,
+  "tier": 3,
+  "collectedAt": "2026-08-28T06:17:06.076Z",
+  "entries": [
+    {
+      "criterion": "Ring exit actor poll completed before automated gate review",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "Missing Ring-0 REVIEW entries from: Architect Reviewer, Security Reviewer, Responsible AI, Document Manager, Ops Chief"
+      }
+    },
+    {
+      "criterion": "Ring exit actor approvals recorded",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "Cannot confirm approvals until missing actors review: Architect Reviewer, Security Reviewer, Responsible AI, Document Manager, Ops Chief"
+      }
+    },
+    {
+      "criterion": "Journal entries exist for Ring 0 (§5a checkpoint obligation)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "20 journal entries found for Ring 0 (minimum: 1)"
+      }
+    },
+    {
+      "criterion": "Brainstorm offer documented (mandatory when grounding resources exist)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "No grounding manifest — brainstorm offer not required"
+      }
+    },
+    {
+      "criterion": "Consequential decisions have documented alternatives (GOV-002)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "7 decision(s) with alternatives analysis documented"
+      }
+    },
+    {
+      "criterion": "RAI objective assessment produced (Tiers 3–7, rai-lifecycle.md §4 Checkpoint 1)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "docs/Governance/responsible-ai/rai-ring0-objective.md missing or empty — dispatch Responsible AI agent per rai-lifecycle.md Checkpoint 1"
+      }
+    },
+    {
+      "criterion": "RAI post-brainstorm assessment produced (Tiers 3–7, rai-lifecycle.md §4 Checkpoint 2)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "No brainstorm conducted — Checkpoint 2 skipped per rai-lifecycle.md §4"
+      }
+    },
+    {
+      "criterion": "Requirements captured in .feature files",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "evidence": "Found 3 feature file(s): specs/features/Architecture-docs-platform-constraints.feature, specs/features/Objective-statement-of-work.feature, specs/features/Transcripts-discovery-workshop-session-1.feature",
+        "detail": "ENFORCEMENT: This criterion requires structured evidence in docs/artifacts/gate-evidence/ring-0.json. Keyword match alone is insufficient. Submit evidence with criterion \"Requirements captured in .feature files\" to pass."
+      }
+    },
+    {
+      "criterion": "Architecture models produced per architect spec (C4, Data Flow, Deployment, Domain, Integration, Security)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "No architecture model files found in docs/Architecture/ (ADRs alone do not satisfy this criterion)"
+      }
+    },
+    {
+      "criterion": "Trust boundaries defined in architecture models",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "Architecture models must define trust boundaries — add trust boundary annotations to security architecture diagrams"
+      }
+    },
+    {
+      "criterion": "Findings document updated with Ring-0 outputs",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "docs/Planning/findings.md still has template placeholders or missing Ring-0 references"
+      }
+    },
+    {
+      "criterion": "Ring status tracker updated for Ring-0",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "ring-status.md shows Ring-0 has progressed beyond initial state"
+      }
+    },
+    {
+      "criterion": "RTM seeded with governance and grounding requirements",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "RTM has 8 row(s); governance rows: yes"
+      }
+    },
+    {
+      "criterion": "Decision log has Ring-0 decisions recorded",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "Decision log contains 7 entry/entries"
+      }
+    },
+    {
+      "criterion": "Reasoning ledger populated with Ring-0 reasoning chains",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": true,
+        "evidence": "Reasoning ledger has 1767 chars of content"
+      }
+    },
+    {
+      "criterion": "Spec quality checks pass (7 dimensions: intent fidelity, Gherkin structure, testability, traceability, reviewability, completeness, AI guardrails)",
+      "timestamp": "2026-08-28T06:17:06.077Z",
+      "agent": "gate-review",
+      "authority": "agent",
+      "proof": {
+        "passed": false,
+        "detail": "19 of 423 checks failed (96% pass rate). Failed dimensions: intent-fidelity, testability, traceability, ai-guardrails"
+      }
+    }
+  ]
+}
