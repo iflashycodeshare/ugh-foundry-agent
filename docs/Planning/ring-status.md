@@ -4,7 +4,7 @@
 
 | Ring | Name | Phase | Status | % Complete | Owner | Last Updated |
 |------|------|-------|--------|------------|-------|--------------|
-| Ring-0 | Intake | — | — | — | — | — |
+| Ring-0 | Intake | ACTIVE | In progress | 50% | Program Manager | 2026-08-27 |
 | Ring-1 | Plan/WBS/Estimate | — | — | — | — | — |
 | Ring-2 | Dev/ManageDev | — | — | — | — | — |
 | Ring-3 | IV&V | — | — | — | — | — |
@@ -18,7 +18,7 @@
 
 | Objective | Offer Date | User Response | Documented By | Notes |
 |-----------|-----------|---------------|---------------|-------|
-|           |           |               |               |       |
+| UHG Provider Network Intelligence Agent | 2026-08-27 | Pending | Program Manager | Mandatory because customer documents are present; user has not declined and no brainstorm decision has been recorded. |
 
 ## Consequential Decision Offer Log
 
@@ -29,4 +29,11 @@
 | Ring | Decision | Offer Date | User Response | Analysis Type | Documented By | Notes |
 |------|----------|-----------|---------------|---------------|---------------|-------|
 |      |          |           |               |               |               |       |
+
+## Ring-0 Scope and Status
+
+- **GitHub tracking:** Issue #1, milestone `Ring 0 — Intake`.
+- **Completed intake work:** Exhaustive extraction of the three user-approved sources; source-separated narrative, summary, Gherkin features, and scope decision record.
+- **Pending mandatory work:** Customer-document brainstorming, architecture models, threat model, Security Enabler DP-31 validation, lessons learned with remediation tracking, and gate review/approval.
+- **Boundary:** Ring 0 remains ACTIVE. No Ring 1 activity, target architecture decision, ADR acceptance, or gate pass has occurred.
 

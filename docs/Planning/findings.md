@@ -1,87 +1,36 @@
-# Findings — Executive Summary
+# Findings — Ring 0 Intake
 
-> **Purpose:** CVP briefing artifact. Updated at each Ring completion to reflect what was explored, decided, and delivered. This document does NOT influence Ring execution — it is a parallel reporting artifact.
+**Project:** UHG Provider Network Intelligence Agent
+**Last Updated:** 2026-08-27
+**Current Ring:** Ring 0 ACTIVE
 
-**Project:** [Project Name]
-**Last Updated:** [YYYY-MM-DD]
-**Current Ring:** [Ring-N]
+## Executive Overview
 
----
+Ring 0 requirements intake is complete for the three user-approved sources. The contractual SOW establishes a read-only, authenticated provider-network enquiry agent with grounded citations, business-unit restriction, coverage-determination refusal, audit retention, and release controls. Discovery and platform sources strengthen operational interpretation but do not change SOW authority. No solution design or gate decision has been made.
 
-## §1. Executive Overview
+## Requirements Summary
 
-[One-paragraph summary of the initiative, its business context, and current status.]
+| Area | Captured requirement set | Status |
+| --- | --- | --- |
+| Contractual business requirements | BR-01 through BR-08 | Captured in SOW feature |
+| Contractual non-functional requirements | NFR-01 through NFR-05 | Captured in SOW feature |
+| Newly discovered operational details | DISC-01 through DISC-06 | Captured and separated from SOW authority |
+| Platform controls | ARC-01 through ARC-14 | Captured as constraints, not architecture choices |
 
----
+## Known Limitations and Risks
 
-## §2. Requirements Summary
+| ID | Finding | Severity | Impact | Required next action |
+| --- | --- | --- | --- | --- |
+| F-01 | Amendment register is nightly while discovery expects prior-day amendments to be reflected; intra-day amendments are unavailable. | High | Potential stale location-level answers and loss of analyst trust. | Agree freshness expectation before Ring 0 gate review. |
+| F-02 | Location-level status is a known high-risk interpretation area. | High | A group-level answer could be materially incorrect for a clinic. | Preserve location identity and verification criteria in later work. |
+| F-03 | Refusal routing/logging detail exceeds the SOW wording. | Medium | Compliance evidence behavior needs clarification. | Confirm whether BR-06 retention fully satisfies refusal logging and route ownership. |
+| F-04 | Customer sources have no explicit accessibility requirement. | Medium | Customer intent is unknown, though workspace policy applies. | Carry WCAG 2.1 AA as a policy/gate expectation, not a customer requirement. |
+| F-05 | Customer SOW names Azure DevOps while the delegated Ring 0 package is recorded in GitHub Issue #1. | Medium | Delivery governance-system alignment is unresolved. | Resolve tracking-system interpretation before delivery planning. |
 
-[High-level requirements captured during Ring-0 intake.]
+## Gate Readiness
 
-| ID | Requirement | Priority | Status |
-|----|-------------|----------|--------|
-| R-001 | [Requirement description] | [High/Med/Low] | [Captured/Refined/Delivered] |
+**Recommendation:** Not ready for Ring 0 gate review or Ring 1 transition.
 
----
+Completed: requirements extraction, source synthesis, scope boundaries, Ring 0 status update, and findings update.
 
-## §3. Architecture
-
-[Architecture summary reflecting the current design. Updated at Ring-1 (initial) and Ring-4 (final).]
-
-### Key Components
-
-| Component | Responsibility | Technology | Status |
-|-----------|---------------|------------|--------|
-| [Name] | [What it does] | [Stack] | [Planned/Built/Verified] |
-
----
-
-## §4. Product Shortcomings
-
-### Known Limitations
-
-| ID | Shortcoming | Severity | Impact | Workaround | Discovered |
-|----|-------------|----------|--------|------------|------------|
-| S-001 | [Description] | [High/Med/Low] | [Impact] | [Workaround] | [Ring-N] |
-
-### Engineering Workarounds
-
-| ID | Workaround | Reason | Technical Debt | Remediation Plan |
-|----|-----------|--------|----------------|------------------|
-| W-001 | [What was done] | [Why needed] | [Debt introduced] | [Future fix plan] |
-
----
-
-## §5. Risk Posture
-
-| ID | Risk | Likelihood | Impact | Mitigation | Status | Ring |
-|----|------|-----------|--------|------------|--------|------|
-| RK-001 | [Risk description] | [H/M/L] | [H/M/L] | [Mitigation] | [Open/Mitigated/Closed] | [Ring-N] |
-
----
-
-## §6. Recommendation
-
-**Production Readiness:** [Ready / Conditional / Not Ready]
-
-**Recommendation:** [Go / No-Go / Conditional Go]
-
-### Lessons Learned
-
-| Area | Lesson | Action |
-|------|--------|--------|
-| [Category] | [What was learned] | [Forward action] |
-
----
-
-## Appendix A: Glossary
-
-| Term | Definition |
-|------|------------|
-| [Term] | [Definition] |
-
----
-
-## Appendix B: Ring Completion Log
-
-> Each Ring completion adds a dated entry below summarizing what was accomplished.
+Pending: mandatory customer-document brainstorming and human selection, architecture models, threat model, Security Enabler DP-31 validation, lessons-learned/remediation evidence, decision review, and formal gate approval.
