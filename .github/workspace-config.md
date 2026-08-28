@@ -8,7 +8,7 @@
 **Tier:** 3 — Enterprise Program Office
 **Structure:** Enterprise Program Office
 **Top Role:** Program Executive
-**Config Hash:** `a6b453b1cdfe9148dae202a8f6f3cf80808b9e87c3d441c677ff6dc6f70ecb3d`
+**Config Hash:** `be7faff85d4610c810708ff57f79f91ec36f79efb7f3cf6225fe8170c4e4b3db`
 **Autonomy:** Human-in-the-Loop
 **Governance Intensity:** Full
 
@@ -190,3 +190,9 @@ Program Executive (You — main thread)
 - **Tier 1 → 2:** Activates PM, Project Leads, formal governance, planning artifacts
 - **Tier 2 → 3:** Activates Program Executive, Ops Chief, Embedded Enablers, full compliance suite
 - **Downgrade:** Higher-tier files remain in place but are marked inactive in this config
+
+## Deployment Configuration
+
+**Deployment Mode:** Full local (VSIX)
+**Governance Source:** bundled-vsix
+
