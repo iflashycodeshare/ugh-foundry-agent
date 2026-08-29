@@ -43,7 +43,8 @@ If `docs/customer-docs/grounding-manifest.md` exists, the following directories 
 
 - [x] Three user-approved grounding resources synthesized.
 - [x] Requirements captured in three source-specific `specs/features/*.feature` files.
-- [ ] Mandatory brainstorm completed and DP-4 user choice recorded; Phase 1 is in progress and no selection has been made.
+- [x] Mandatory brainstorm Phase 1 completed and DP-4 Candidate Hybrid choice recorded in DEC-008.
+- [ ] Mandatory brainstorm Phase 2 completed with five competing WBS variants and human selection, as required by `brainstorming.md` section 2.2.
 - [ ] Architecture models produced per architect specification (C4 Context, Container, Component; Data Flow; Deployment; Domain Model; Integration; Security).
 - [ ] Senior Cloud Architect dispatched after ADR/brainstorm acceptance.
 - [ ] Threat model with STRIDE and Mermaid trust boundaries produced.
@@ -54,6 +55,8 @@ If `docs/customer-docs/grounding-manifest.md` exists, the following directories 
 - [x] Ring status tracker updated; Ring 0 remains ACTIVE.
 - [x] Alternate-model review completed; all MAJOR findings and the remaining MINOR source-separation condition remediated. No unresolved improvement requires user disposition.
 - [ ] Gate review approved by the required human authority.
+
+**Remaining exit items:** 7
 
 ## Gate Decision
 

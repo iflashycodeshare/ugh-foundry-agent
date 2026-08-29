@@ -299,3 +299,19 @@
 **Outcome:** Nine options retain 39/39 coverage and pass architecture-neutrality review. Review corrections reconciled. Phase 1 is complete and stopped at DP-4 without a selection, Phase 2, or Ring 1 activity.
 
 ---
+
+## 2026-08-28T00:00:00 | DEC-008 | Ring-0 | @program-executive
+
+**Type:** DECISION
+**decision-point:** DP-4
+**Decision:** Select the Candidate Hybrid decomposition as the input to mandatory Phase 2 WBS alternatives. The selection commits planning to B2's frozen acceptance spine, C2's early human disposition of unresolved authority questions, A2's authorization-before-grounding dependency, comprehensive tension evidence, and evidence reuse that preserves distinct source assertions. It makes no architecture, product, topology, model, runtime, staffing, schedule, WBS, release, or deployment selection.
+**Policy:** `.github/skills/brainstorming.md` section 2.2; Ring 0 architecture-neutral boundary.
+**Authority:** Workspace Owner as DP-4 decision authority.
+**Accountable:** Program Executive.
+**Reasoning:** In the regulated healthcare context, surfacing OQ-01 and OQ-02 early reduces the dominant risks of location-level misinterpretation and untruthful amendment freshness more effectively than deferring those questions for schedule savings.
+**selected-option:** Candidate Hybrid.
+**rejected-options:** A1 | A2 | A3 | B1 | B2 | B3 | C1 | C2 | C3 as standalone decompositions.
+**selector:** human.
+**Outcome:** DP-4 is complete; Phase 2 remains mandatory and has not started; Ring 0 remains active.
+
+---
