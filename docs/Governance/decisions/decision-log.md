@@ -11,6 +11,7 @@
 |----|------|----------|--------------------|-----------|-------------|--------|
 | DEC-001 | 2026-08-28 | Governance | Workspace initialized at Tier 3 (Enterprise Program Office) | User | Architect | Active |
 | DEC-005 | 2026-08-27 | Scope | Preserve source authority and Ring 0-only boundaries for Issue #1 intake | Workspace Owner / PX | Program Manager | Active |
+| DEC-007 | 2026-08-28 | Model Governance | Replace non-compliant Model C producer with Grok 4.6 for Phase 1 | Program Executive | Program Executive | Active |
 
 ---
 
@@ -55,3 +56,23 @@
 | **Status** | Active |
 | **Linked Artifacts** | GitHub Issue #1; milestone `Ring 0 — Intake`; `docs/customer-docs/Objective/objective-summary.md`; `docs/Sessions/journal.md` DEC-005 and RSN-002 |
 | **Reasoning** | RSN-002 |
+
+### DEC-007: Ring 0 Brainstorm Model C Substitution
+
+| Field | Value |
+|-------|-------|
+| **ID** | DEC-007 |
+| **Date** | 2026-08-28 |
+| **Category** | Model Governance |
+| **Decision** | Reject the unpersisted Gemini 3.1 Pro Preview Model C proposal and replace that producer with Grok 4.6 for the independent third decomposition. |
+| **Policy** | `.github/skills/brainstorming.md` sections 3.2-3.3; `.github/skills/decision-traceability.md`; architecture-neutral Ring 0 boundary |
+| **Authority** | Program Executive as Tier 3 brainstorm orchestrator |
+| **Accountable** | Program Executive |
+| **Context** | Gemini retries did not create the required immutable producer artifact; returned content also introduced premature architecture commitments and incomplete scenario traceability. |
+| **Alternatives** | Accept the non-compliant output; retry the same unavailable producer indefinitely; substitute a distinct available model and re-run the complete producer task. |
+| **Consequences** | Grok 4.6 produced the persisted Model C artifact with three strategies and 39/39 coverage; the rejected output is excluded from the comparison; model-family diversity remains intact. |
+| **Reasoning** | Artifact persistence, complete traceability, and architecture neutrality are mandatory entry criteria for comparison. A clean replacement was more auditable than repairing or partially importing rejected content. |
+| **Assumptions** | Grok 4.6 is sufficiently distinct from Claude Opus 4.8 and GPT-5.6 Sol to preserve the required reasoning diversity. |
+| **Invalidation** | Evidence that Model C was not independently produced, does not cover all 39 scenarios, or breaches the architecture-neutral boundary requires replacement and re-review. |
+| **Status** | Active |
+| **Linked Artifacts** | `docs/Planning/brainstorm/model-C-decomposition.md`; `docs/Planning/brainstorm/comparison-matrix.md`; `docs/Operations/model-assignments.md` |

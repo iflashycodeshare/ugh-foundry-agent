@@ -19,7 +19,7 @@
 | Review UX/Figma artefacts for UI requirements | Ring Owner | |
 | Review architecture docs for system constraints | Ring Owner | Complete; constraints only, no target design |
 | Define scope boundaries and capture in decision log | Ring Owner | Complete; DEC-005 |
-| Offer brainstorm option to user (MANDATORY) | Ring Owner | Pending; mandatory due customer documents; no response recorded |
+| Offer brainstorm option to user (MANDATORY) | Ring Owner | Complete; DP-3 ACCEPTED on 2026-08-28 |
 | Produce architecture diagrams from inputs | Architect | |
 | **Dispatch Senior Cloud Architect to produce formal target architecture models (C4, Data Flow, Deployment, Domain, Integration, Security, Observability) after ADR/brainstorm acceptance — MANDATORY** | PM / Ring Owner | |
 | Update findings document with Ring-0 outputs | Ring Owner | Complete |
@@ -43,7 +43,7 @@ If `docs/customer-docs/grounding-manifest.md` exists, the following directories 
 
 - [x] Three user-approved grounding resources synthesized.
 - [x] Requirements captured in three source-specific `specs/features/*.feature` files.
-- [ ] Mandatory brainstorm completed and user choice recorded; customer documents require multi-option analysis.
+- [ ] Mandatory brainstorm completed and DP-4 user choice recorded; Phase 1 is in progress and no selection has been made.
 - [ ] Architecture models produced per architect specification (C4 Context, Container, Component; Data Flow; Deployment; Domain Model; Integration; Security).
 - [ ] Senior Cloud Architect dispatched after ADR/brainstorm acceptance.
 - [ ] Threat model with STRIDE and Mermaid trust boundaries produced.
