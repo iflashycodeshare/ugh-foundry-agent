@@ -4,7 +4,7 @@
 
 | Ring | Name | Phase | Status | % Complete | Owner | Last Updated |
 |------|------|-------|--------|------------|-------|--------------|
-| Ring-0 | Intake | BRAINSTORM | DP-4 Candidate Hybrid selected; mandatory Phase 2 pending | 70% | Program Executive | 2026-08-28 |
+| Ring-0 | Intake | BRAINSTORM | Five Phase 2 WBS variants reviewed; human selection pending | 75% | Program Executive | 2026-08-28 |
 | Ring-1 | Plan/WBS/Estimate | — | — | — | — | — |
 | Ring-2 | Dev/ManageDev | — | — | — | — | — |
 | Ring-3 | IV&V | — | — | — | — | — |
@@ -18,7 +18,7 @@
 
 | Objective | Offer Date | User Response | Documented By | Notes |
 |-----------|-----------|---------------|---------------|-------|
-| UHG Provider Network Intelligence Agent | 2026-08-28 | ACCEPTED — 2026-08-28 | Program Executive | DP-3 accepted and DP-4 Candidate Hybrid selected. Mandatory Phase 2 remains pending under brainstorming.md section 2.2. |
+| UHG Provider Network Intelligence Agent | 2026-08-28 | ACCEPTED — 2026-08-28 | Program Executive | DP-3 accepted and DP-4 Candidate Hybrid selected. Five Phase 2 WBS variants are ready; human WBS selection remains pending. |
 
 ## Consequential Decision Offer Log
 
@@ -28,13 +28,14 @@
 
 | Ring | Decision | Offer Date | User Response | Analysis Type | Documented By | Notes |
 |------|----------|-----------|---------------|---------------|---------------|-------|
-| Ring-0 | DP-4 decomposition selection | 2026-08-28 | Candidate Hybrid selected | Full multi-model brainstorm Phase 1 | Program Executive | Workspace Owner selected the bounded hybrid recorded in DEC-008; Phase 2 has not started. |
+| Ring-0 | DP-4 decomposition selection | 2026-08-28 | Candidate Hybrid selected | Full multi-model brainstorm Phase 1 | Program Executive | Workspace Owner selected the bounded hybrid recorded in DEC-008; Phase 2 alternatives are now ready for a separate human WBS selection. |
+| Ring-0 | Phase 2 WBS selection | 2026-08-28 | PENDING | Five competing WBS variants | Program Executive | WBS-A through WBS-E and independent reviews are ready; no WBS is selected and Ring 1 has not started. |
 
 ## Ring-0 Scope and Status
 
 - **GitHub tracking:** Issue #1, milestone `Ring 0 — Intake`.
 - **Completed intake work:** Exhaustive extraction of the three user-approved sources; source-separated narrative, summary, Gherkin features, and scope decision record.
-- **Completed brainstorm work:** Nine independent decomposition options, comparison matrix, independent plan and architecture reviews, non-binding Phase 1 synthesis, and DP-4 Candidate Hybrid selection (DEC-008).
-- **Pending mandatory work:** Phase 2 competing WBS, architecture models, threat model, Security Enabler DP-31 validation, lessons learned with remediation tracking, and gate review/approval.
+- **Completed brainstorm work:** Nine independent decomposition options, comparison matrix, Phase 1 reviews and synthesis, DP-4 Candidate Hybrid selection (DEC-008), and five reviewed Phase 2 WBS alternatives.
+- **Pending mandatory work:** Human Phase 2 WBS selection, architecture models, threat model, Security Enabler DP-31 validation, lessons learned with remediation tracking, and gate review/approval.
 - **Boundary:** Ring 0 remains ACTIVE. No Ring 1 activity, target architecture decision, ADR acceptance, or gate pass has occurred.
 

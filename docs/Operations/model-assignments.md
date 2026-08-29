@@ -16,6 +16,14 @@
 | Comparison Matrix | GPT-5.6 Terra | High | Cross-option synthesis without producer-file mutation | 2026-08-28 | - |
 | Plan Review | Claude Sonnet 5 | Medium | Independent feasibility, completeness, and traceability review | 2026-08-28 | - |
 | Architecture Review | GPT-5.5 | High | Independent boundary and authoritative-constraint review | 2026-08-28 | - |
+| Phase 2 WBS-A Speed | GPT-5.5 | High | Lean human sequencing with dependency-safe parallelism | 2026-08-28 | - |
+| Phase 2 WBS-B Depth | Claude Sonnet 5 | Medium | Quality, separation-of-duties, and risk-focused planning | 2026-08-28 | - |
+| Phase 2 WBS-C Innovation | Grok 4.6 | High | Distinct cross-functional and bounded-experiment perspective | 2026-08-28 | - |
+| Phase 2 WBS-D Combined | GPT-5.6 Sol | High | Evidence-based synthesis and mitigation across A/B/C | 2026-08-28 | - |
+| Phase 2 WBS-E AI-Staffed | GPT-5.6 Sol | High | Exact D mirror with active-agent mapping and human authority controls | 2026-08-28 | - |
+| Phase 2 WBS Comparison | GPT-5.6 Terra | High | Qualitative five-way comparison without selection | 2026-08-28 | - |
+| Phase 2 Plan Review | Claude Opus 4.8 | High | Independent scope, traceability, and feasibility validation | 2026-08-28 | - |
+| Phase 2 Architecture Review | GPT-5.5 | High | Independent neutrality and decision-authority validation | 2026-08-28 | - |
 
 ## Assignment History
 
